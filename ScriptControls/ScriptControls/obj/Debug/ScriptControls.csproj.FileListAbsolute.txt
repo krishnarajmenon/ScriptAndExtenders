@@ -1,0 +1,6 @@
+D:\KBU\Projects\Office\ScriptControls\ScriptControls\bin\ScriptControls.dll
+D:\KBU\Projects\Office\ScriptControls\ScriptControls\bin\ScriptControls.pdb
+D:\KBU\Projects\Office\ScriptControls\ScriptControls\obj\Debug\ResolveAssemblyReference.cache
+D:\KBU\Projects\Office\ScriptControls\ScriptControls\obj\Debug\ScriptControls.dll
+D:\KBU\Projects\Office\ScriptControls\ScriptControls\obj\Debug\ScriptControls.pdb
+D:\KBU\Projects\Office\ScriptControls\ScriptControls\bin\ScriptControls.TestScriptControl.js

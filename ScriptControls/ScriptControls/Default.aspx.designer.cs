@@ -39,5 +39,23 @@ namespace ScriptControls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ScriptControls.TestScriptControl scriptControl;
+        
+        /// <summary>
+        /// extenderControl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ScriptControls.TestExtenderControl extenderControl;
+        
+        /// <summary>
+        /// lblTest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTest;
     }
 }

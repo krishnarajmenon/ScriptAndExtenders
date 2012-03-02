@@ -5,12 +5,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>Untitled Page</title>
+    
 </head>
 <body>
     <form id="form1" runat="server">
+    <script language="javascript" type="text/javascript">
+        function showTime() {
+            document.getElementById('lblTest').textContent = 'The text box was clicked on ' + new Date();
+        }
+    </script>
     <div>
         <asp:ScriptManager ID="scriptManager" runat="server"></asp:ScriptManager>
-        <sc:TestScriptControl ID="scriptControl" runat="server" ClickHandler="function() {alert('Event has been raised');}"/>
+        <sc:TestScriptControl ID="scriptControl" runat="server" ClickHandler="showTime"></sc:TestScriptControl> 
+        <sc:TestExtenderControl ID="extenderControl" TargetControlID="scriptControl" AssociatedLabelID="lblTest" runat="server"/>
+        <asp:Label ID="lblTest" runat="server"></asp:Label>
     </div>
     </form>
 </body>

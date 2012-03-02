@@ -7,7 +7,6 @@ ScriptControls.TestScriptControl = function (element) {
 ScriptControls.TestScriptControl.prototype = {
     initialize : function() {
         ScriptControls.TestScriptControl.callBaseMethod(this, 'initialize');
-        
         $addHandlers(this.get_element(), {'click' : this._textBoxClicked}, this);
     },
     dispose : function() {
@@ -24,7 +23,6 @@ ScriptControls.TestScriptControl.prototype = {
         if (!this._events) return;
         
         var handler = this._events.getHandler('textBoxClicked');
-        
         if (handler){
             handler(source.rawEvent.srcElement);
         }

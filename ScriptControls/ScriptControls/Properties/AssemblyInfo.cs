@@ -35,3 +35,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
 [assembly: System.Web.UI.WebResource("ScriptControls.TestScriptControl.js", "text/javascript")]
+[assembly: System.Web.UI.WebResource("ScriptControls.TestExtenderControl.js", "text/javascript")]

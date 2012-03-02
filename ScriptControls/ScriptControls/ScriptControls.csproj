@@ -57,6 +57,7 @@
     <EmbeddedResource Include="ScriptControls.TestScriptControl.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="ScriptControls.TestExtenderControl.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +69,7 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestExtenderControl.cs" />
     <Compile Include="TestScriptControl.cs" />
   </ItemGroup>
   <ItemGroup>

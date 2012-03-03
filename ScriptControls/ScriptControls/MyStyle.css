@@ -1,0 +1,10 @@
+﻿body
+{
+}
+
+.textHighlight
+{
+	border-style: solid;
+	border-color: Green;
+	border-width: 4px;
+}

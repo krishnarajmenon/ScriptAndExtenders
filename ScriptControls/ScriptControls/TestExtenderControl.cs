@@ -15,6 +15,8 @@ namespace ScriptControls
     [TargetControlType(typeof(Control))]
     public class TestExtenderControl : ExtenderControl
     {
+        public string HighlightCssClass { get; set; }
+
         public string AssociatedLabelID { get; set; }
 
         protected override System.Collections.Generic.IEnumerable<ScriptDescriptor> GetScriptDescriptors(Control targetControl)
@@ -25,6 +27,7 @@ namespace ScriptControls
                 throw new Exception("Associated Control ID not specified for the TestExtenderControl");
 
             descriptor.AddProperty("updateLabelID", AssociatedLabelID);
+            descriptor.AddProperty("highlightCssClass", HighlightCssClass);
 
             return new ScriptDescriptor[] { descriptor };
         }
